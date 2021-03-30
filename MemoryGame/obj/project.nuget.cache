@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VsFSYJI0tO/5Y8uWl2m87rLEfUVFKlWvNEj8s2ujCIO9mEXnlaKzC7RlxIU6cI4yTt/TxmHAvvIZw4E+OCJp8g==",
+  "dgSpecHash": "gg9FwoGy/m8jjX5qfHAA5pGqW5dlAtI92jXOGa34YL5ZUxVgzS06JvdeLEsWXKoc7lCWFWr5DNXOhIQbKOoY0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\30006830\\source\\repos\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
+  "projectFilePath": "C:\\Users\\OEM\\Desktop\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

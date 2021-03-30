@@ -8,43 +8,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="Gray">
-        
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-        </Grid.ColumnDefinitions>
-
-        <Button Grid.Column="0" Grid.RowSpan="4"/>
-
-        <Button x:Name="a1" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="1" Grid.Row="0" Click="btnClick"/>
-        <Button x:Name="a2" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="2" Grid.Row="0" Click="btnClick"/>
-        <Button x:Name="a3" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="3" Grid.Row="0" Click="btnClick"/>
-        <Button x:Name="a4" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="4" Grid.Row="0" Click="btnClick"/>
-        
-        <Button x:Name="b1" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="b2" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="2" Grid.Row="1"/>
-        <Button x:Name="b3" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="3" Grid.Row="1"/>
-        <Button x:Name="b4" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="4" Grid.Row="1"/>
-
-        <Button x:Name="c1" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="1" Grid.Row="2"/>
-        <Button x:Name="c2" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="2" Grid.Row="2"/>
-        <Button x:Name="c3" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="3" Grid.Row="2"/>
-        <Button x:Name="c4" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="4" Grid.Row="2"/>
-
-        <Button x:Name="d1" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="1" Grid.Row="3"/>
-        <Button x:Name="d2" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="2" Grid.Row="3"/>
-        <Button x:Name="d3" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="3" Grid.Row="3"/>
-        <Button x:Name="d4" Content="?" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="160" Grid.Column="4" Grid.Row="3"/>
+    <Grid Background="Black">
+        <Viewbox>
+            <Grid Margin="100" Name="Display" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Viewbox>
+        <CommandBar VerticalAlignment="Bottom">
+            <AppBarButton Icon="Page2" Label="New" Click="btnClick" IsEnabled="True"/>
+        </CommandBar>
         
         
     </Grid>

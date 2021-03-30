@@ -1,0 +1,1285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RecognizerHasNoGrammar" xml:space="preserve">
+    <value>認識を行う前に、少なくとも 1 つの文法を読み込んでおく必要があります。</value>
+  </data>
+  <data name="SynthesizerPromptInUse" xml:space="preserve">
+    <value>このプロンプトはシンセサイザで既に使用されているか、または再使用されています。</value>
+  </data>
+  <data name="NoTerminatingRulePath" xml:space="preserve">
+    <value>終了するルール パスはありません。</value>
+  </data>
+  <data name="SapiErrorLangIdMismatch" xml:space="preserve">
+    <value>文法の言語が、音声認識エンジンの言語と一致していません。</value>
+  </data>
+  <data name="SapiErrorRecognizerNotFound" xml:space="preserve">
+    <value>認識エンジンがインストールされていません。</value>
+  </data>
+  <data name="EmptyPronunciationString" xml:space="preserve">
+    <value>'pron' 文字列を空にすることはできません。</value>
+  </data>
+  <data name="SapiErrorNoMoreItems" xml:space="preserve">
+    <value>項目を列挙するときに、要求されたインデックスが、項目の数より大きくなりました。</value>
+  </data>
+  <data name="DuplicatedEntry" xml:space="preserve">
+    <value>重複したエントリです。</value>
+  </data>
+  <data name="SapiErrorRemoteProcessTerminated" xml:space="preserve">
+    <value>リモート プロセスは予期せずに終了しました。</value>
+  </data>
+  <data name="InvalidImportNamespaceAttribute" xml:space="preserve">
+    <value>不明な 'import namespace' 属性です。</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>追加の例外情報が使用できません。</value>
+  </data>
+  <data name="NotSupportedWithThisVersionOfSAPI" xml:space="preserve">
+    <value>この機能は、Speech プラットフォームではサポートされていません。</value>
+  </data>
+  <data name="InvalidSpeakAttribute" xml:space="preserve">
+    <value>'{1}' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="SapiErrorInvalidHandle" xml:space="preserve">
+    <value>無効なハンドルです。</value>
+  </data>
+  <data name="PromptBuilderStateSentence" xml:space="preserve">
+    <value>文が閉じられていません。</value>
+  </data>
+  <data name="SapiErrorInvalidImport" xml:space="preserve">
+    <value>インポートされた文法に対するルール参照を、解決することはできません。</value>
+  </data>
+  <data name="SapiErrorNoDriver" xml:space="preserve">
+    <value>インストールされている WAVE ドライバはありません。</value>
+  </data>
+  <data name="RecognizerUpdateTableTooLarge" xml:space="preserve">
+    <value>認識エンジン更新テーブルが大きすぎます。</value>
+  </data>
+  <data name="TagFormatNotSet" xml:space="preserve">
+    <value>SrgsDocument に SrgsTag 要素を追加する前に、TagFormat を指定する必要があります。</value>
+  </data>
+  <data name="SapiErrorDeviceNotEnabled" xml:space="preserve">
+    <value>WAVE デバイスは有効ではありません。</value>
+  </data>
+  <data name="IncorrectAttributeValue" xml:space="preserve">
+    <value>属性 '{1}' に正しくない値 '{0}' が指定されています。</value>
+  </data>
+  <data name="SapiPropertiesAndSemantics" xml:space="preserve">
+    <value>Srgs Document で、'SrgsNameValueTag' と 'SrgsSemanticInterpretationTag' を同時に使用することはできません。</value>
+  </data>
+  <data name="SapiErrorNotSupportedPhoneme" xml:space="preserve">
+    <value>不明な音素です。</value>
+  </data>
+  <data name="NoHypothesisAvailable" xml:space="preserve">
+    <value>現在、使用可能な仮説認識はありません。</value>
+  </data>
+  <data name="OverloadNotAllowed" xml:space="preserve">
+    <value>'{0}' メソッドは、複数のオーバーロードを持つことはできません。</value>
+  </data>
+  <data name="DynamicRuleNotFound" xml:space="preserve">
+    <value>ダイナミック ルール '{0}' は、定義されていません。このルールを、'OnInit' メソッドで作成する必要があります。</value>
+  </data>
+  <data name="SapiErrorTooManyGrammars" xml:space="preserve">
+    <value>読み込まれた文法の数が多すぎます。文法の数は、1024 を超えることはできません。</value>
+  </data>
+  <data name="GrammarInvalidWeight" xml:space="preserve">
+    <value>重みは、0.0 ～ 1.0 の範囲で指定してください。</value>
+  </data>
+  <data name="MaxTransitionsCount" xml:space="preserve">
+    <value>最大切り替えカウントに達しています。切り替えカウントは、256 を超えることはできません。</value>
+  </data>
+  <data name="SapiErrorBufferTooSmall" xml:space="preserve">
+    <value>呼び出し元により、結果を戻すには小さすぎるバッファが提供されました。</value>
+  </data>
+  <data name="InvalidRuleAttribute" xml:space="preserve">
+    <value>'rule' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="SapiErrorRecoXMLGenerationFail" xml:space="preserve">
+    <value>認識解析ツリーを生成できませんでした。</value>
+  </data>
+  <data name="SapiErrorWordFormat" xml:space="preserve">
+    <value>単語の形式が正しくありません。発音文字列が正しくないことが原因と考えられます。</value>
+  </data>
+  <data name="InvalidSubsetAttribute" xml:space="preserve">
+    <value>'subset' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="EmptyRule" xml:space="preserve">
+    <value>空のルールは使用できません。</value>
+  </data>
+  <data name="SapiErrorLexRequiresCookie" xml:space="preserve">
+    <value>コンテナ辞書から一度にすべての単語を要求することはできません。</value>
+  </data>
+  <data name="SapiErrorCircularRuleRef" xml:space="preserve">
+    <value>ルール 'A' が 2 つ目のルール 'B' を参照し、同様にルール 'B' がルール 'A' を参照しています。</value>
+  </data>
+  <data name="PromptBuilderMismatchParagraph" xml:space="preserve">
+    <value>'EndParagraph' には、対応する 'StartParagraph' が必要です。</value>
+  </data>
+  <data name="GrammarAlreadyLoaded" xml:space="preserve">
+    <value>既に読み込まれている文法を読み込むことはできません。</value>
+  </data>
+  <data name="SapiErrorNoAudioData" xml:space="preserve">
+    <value>結果にオーディオが含まれていないか、または結果の要素チェーンの部分にオーディオが含まれていません。</value>
+  </data>
+  <data name="BlockSignatureInvalid" xml:space="preserve">
+    <value>メタデータ ブロック署名が無効です。</value>
+  </data>
+  <data name="NullParamIllegal" xml:space="preserve">
+    <value>'{0}' パラメータを NULL にすることはできません。</value>
+  </data>
+  <data name="RuleRedefinition" xml:space="preserve">
+    <value>重複したルール '{0}' を持つことはできません。</value>
+  </data>
+  <data name="SynthesizerSpeakError" xml:space="preserve">
+    <value>読み上げエラー '{0:x}' です。</value>
+  </data>
+  <data name="RecognizerSettingUpdateError" xml:space="preserve">
+    <value>認識エンジンの設定を更新するときにエラーが発生しました。</value>
+  </data>
+  <data name="SapiErrorNoVowel" xml:space="preserve">
+    <value>単語には母音を含める必要があります。</value>
+  </data>
+  <data name="SapiErrorNoRules" xml:space="preserve">
+    <value>トップレベル ルール、ダイナミック ルール、またはエクスポートされたルールが、文法に含まれていません。</value>
+  </data>
+  <data name="SapiErrorUndefinedForwardRuleRef" xml:space="preserve">
+    <value>定義されていない名前付きルールに対して、文法中のルール参照が行われました。</value>
+  </data>
+  <data name="SapiErrorGenericMMSYS" xml:space="preserve">
+    <value>MMSYS エラーが発生しました。</value>
+  </data>
+  <data name="UnsupportedLanguage" xml:space="preserve">
+    <value>サポートされていない言語 '{0}' です。</value>
+  </data>
+  <data name="SapiErrorRuleNotDynamic" xml:space="preserve">
+    <value>非ダイナミック文法を変更しようとしました。</value>
+  </data>
+  <data name="LocalFilesOnly" xml:space="preserve">
+    <value>'file:' スキームを使用したローカル ファイルのみがサポートされています。</value>
+  </data>
+  <data name="RuleDefinedMultipleTimes2" xml:space="preserve">
+    <value>'{0}' ルールが、複数のファイルで定義されています。</value>
+  </data>
+  <data name="SapiErrorSREngineException" xml:space="preserve">
+    <value>現在の音声認識エンジンの呼び出し中に、エラーが発生しました。</value>
+  </data>
+  <data name="SapiErrorAmbiguousProperty" xml:space="preserve">
+    <value>あいまいなプロパティを追加することはできません。</value>
+  </data>
+  <data name="RecognizerInvalidBinaryGrammar" xml:space="preserve">
+    <value>バイナリ文法は無効です。</value>
+  </data>
+  <data name="UnhandledVariant" xml:space="preserve">
+    <value>対応できない 'VARIANT' の型です。</value>
+  </data>
+  <data name="DuplicatedRuleName" xml:space="preserve">
+    <value>重複したルール名です。</value>
+  </data>
+  <data name="SapiErrorExportDynamicRule" xml:space="preserve">
+    <value>エクスポートされたルールは、ダイナミック ルールを直接的または間接的に参照することはできません。</value>
+  </data>
+  <data name="SynthesizerNoCulture" xml:space="preserve">
+    <value>カルチャを指定する必要があります。</value>
+  </data>
+  <data name="UnsupportedFormat" xml:space="preserve">
+    <value>サポートされていない文法形式です。</value>
+  </data>
+  <data name="SapiErrorInvalidTokenId" xml:space="preserve">
+    <value>指定されたトークンは無効です。</value>
+  </data>
+  <data name="UnsupportedLexicon" xml:space="preserve">
+    <value>'lexicon' 要素はサポートされていません。</value>
+  </data>
+  <data name="DupSemanticKey" xml:space="preserve">
+    <value>ルール '{1}' に、重複したセマンティクス キー '{0}' があります。</value>
+  </data>
+  <data name="InvalidVoiceElementInPromptOutput" xml:space="preserve">
+    <value>'prompt_output' の 'voice' 要素が無効です。</value>
+  </data>
+  <data name="InvalidNotEmptyElement" xml:space="preserve">
+    <value>'{0}' SRGS 要素に、コンテンツを含めることはできません。</value>
+  </data>
+  <data name="UnknownMimeFormat" xml:space="preserve">
+    <value>不明な 'MIME' 形式です。</value>
+  </data>
+  <data name="InvalidElement" xml:space="preserve">
+    <value>'{0}' 要素が無効です。</value>
+  </data>
+  <data name="NotSupportedOnDictationGrammars" xml:space="preserve">
+    <value>DictationGrammar オブジェクトではサポートされていません。</value>
+  </data>
+  <data name="SapiErrorPartialParseFound" xml:space="preserve">
+    <value>文法終了解析では、すべての使用可能な単語が使用されるわけではありません。</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>名前を指定する必要があります。</value>
+  </data>
+  <data name="UnsupportedPhoneticAlphabet" xml:space="preserve">
+    <value>サポートされていない発音記号 '{0}' です。</value>
+  </data>
+  <data name="EmbeddedClassLibraryFailed" xml:space="preserve">
+    <value>埋め込まれたクラス ライブラリ '{0}' の読み込みに失敗しました。</value>
+  </data>
+  <data name="AudioDeviceInternalError" xml:space="preserve">
+    <value>認識プロセスで、内部エラーが発生しました。</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>'{0}' ファイルが見つりません。</value>
+  </data>
+  <data name="RecognizerRuleActivationFailed" xml:space="preserve">
+    <value>文法でルールをアクティブにできません。</value>
+  </data>
+  <data name="SPNotSupportedOnStreamInput" xml:space="preserve">
+    <value>この操作は、ストリーム入力ではサポートされていません。</value>
+  </data>
+  <data name="CannotLoadDotNetSemanticCode" xml:space="preserve">
+    <value>セマンティクス解釈スクリプトを読み込めません。</value>
+  </data>
+  <data name="EmptyDisplayString" xml:space="preserve">
+    <value>'Display' 文字列を空にすることはできません。</value>
+  </data>
+  <data name="RequestPending" xml:space="preserve">
+    <value>SPRIF_ASYNC フラグにより呼び出された音声認識エンジン メソッドは、処理中です。</value>
+  </data>
+  <data name="SapiErrorSecMgrChangeNotAllowed" xml:space="preserve">
+    <value>文法を読み込んでいるときに、セキュリティ マネージャを変更することはできません。</value>
+  </data>
+  <data name="SynthesizerUnknownMediaType" xml:space="preserve">
+    <value>認識できないメディアの種類です。</value>
+  </data>
+  <data name="SynthesizerSyncSpeakWhilePaused" xml:space="preserve">
+    <value>シンセサイザが一時停止されているときは、同期 'Speak' 操作を実行できません。</value>
+  </data>
+  <data name="SapiErrorTokenInUse" xml:space="preserve">
+    <value>既に他の場所で使用中のトークンから、レジストリ キーを削除しようとしました。</value>
+  </data>
+  <data name="SapiErrorTTSEngineException" xml:space="preserve">
+    <value>現在の TTS ドライバの呼び出し中に、例外が発生しました。</value>
+  </data>
+  <data name="SapiErrorMultilingualNotSupported" xml:space="preserve">
+    <value>選択された音声は、多言語として登録されていました。SAPI は、多言語登録をサポートしていません。 </value>
+  </data>
+  <data name="AudioDeviceFormatError" xml:space="preserve">
+    <value>オーディオ形式はサポートされていません。</value>
+  </data>
+  <data name="SapiErrorAlternatesWouldBeInconsistent" xml:space="preserve">
+    <value>音声認識エンジンは、この単語を文法に追加できません。このアプリケーションでは、この単語に対して明示的な発音を指定しなければならない場合があります。</value>
+  </data>
+  <data name="RecognizerNoInputSource" xml:space="preserve">
+    <value>この認識エンジン用に提供されたオーディオ入力がありません。マイクがシステムに接続されている場合は、メソッド SetInputToDefaultAudioDevice を使用してください。それ以外の場合は、SetInputToWaveFile、SetInputToWaveStream、または SetInputToAudioStream を使用して、事前に録音されているオーディオから音声認識を実行してください。</value>
+  </data>
+  <data name="SapiErrorRemoteCallTimedOutStart" xml:space="preserve">
+    <value>SAPI Server を起動するときに、タイムアウトが発生しました。</value>
+  </data>
+  <data name="SapiErrorMarshalerException" xml:space="preserve">
+    <value>マーシャリング コードの呼び出し中に、エラーが発生しました</value>
+  </data>
+  <data name="RecognizerNoRootRuleToActivate" xml:space="preserve">
+    <value>文法にルート ルールがありません。文法コンストラクタでアクティブにするルールを指定する必要があります。</value>
+  </data>
+  <data name="SapiErrorStreamNotActive" xml:space="preserve">
+    <value>ストリームがアクティブでない限り、アクティブなオーディオ ストリームに関連付けられたメソッドを呼び出すことはできません。</value>
+  </data>
+  <data name="SeekNotSupported" xml:space="preserve">
+    <value>このストリーム上のシークは、現時点ではサポートされていません。</value>
+  </data>
+  <data name="ConstructorNotAllowed" xml:space="preserve">
+    <value>メソッド名は、ルール '{0}' の名前と同じにすることはできません。</value>
+  </data>
+  <data name="NoLanguageSet" xml:space="preserve">
+    <value>スクリプトを使用して、文法に対して 'language' 属性を設定する必要があります。</value>
+  </data>
+  <data name="StreamMustBeWriteable" xml:space="preserve">
+    <value>ストリームで、書き込み操作がサポートされている必要があります。</value>
+  </data>
+  <data name="IncompatibleLanguageProperties" xml:space="preserve">
+    <value>すべての文法で同じ .NET 言語を使用する必要があります。</value>
+  </data>
+  <data name="NoName1" xml:space="preserve">
+    <value>名前を '{0}' に指定する必要があります。</value>
+  </data>
+  <data name="InvalidRuleRefSelf" xml:space="preserve">
+    <value>ルール参照が無効です。URI は、同じ文法ファイルを明示的に参照することはできません。</value>
+  </data>
+  <data name="SapiErrorNoWordPronunciation" xml:space="preserve">
+    <value>音声認識エンジンは、この単語を文法に追加できません。このアプリケーションでは、この単語に対して明示的な発音を指定しなければならない場合があります。</value>
+  </data>
+  <data name="IncompatibleDebugProperties" xml:space="preserve">
+    <value>すべての文法で同じデバッグ設定を使用する必要があります。</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>トークンが見つかりません。</value>
+  </data>
+  <data name="PromptBuilderInvalidVariant" xml:space="preserve">
+    <value>音声バリアントは負の数にできません。</value>
+  </data>
+  <data name="UndefRuleRef" xml:space="preserve">
+    <value>'{0}' ルール参照は、この文法では定義されていません。</value>
+  </data>
+  <data name="LimitReached" xml:space="preserve">
+    <value>標準化されている単語により、許可されている最大数を超える標準化された結果が生成されました。</value>
+  </data>
+  <data name="MetaNameHTTPEquiv" xml:space="preserve">
+    <value>Name および http-equiv 属性を、メタデータで同時に使用することはできません。</value>
+  </data>
+  <data name="InvalidDynamicSetting" xml:space="preserve">
+    <value>ルール ダイナミック値が無効です。</value>
+  </data>
+  <data name="SapiErrorLexVeryOutOfSync" xml:space="preserve">
+    <value>クライアントは、辞書とまったく同期がとれていません。一致していないものをインクリメンタルに同期させることはできません。</value>
+  </data>
+  <data name="InvalidRuleRef" xml:space="preserve">
+    <value>ルール参照が無効です。'uri' または 'special' を指定する必要があります。</value>
+  </data>
+  <data name="InvalidWeight" xml:space="preserve">
+    <value>'{0}' 重みが無効です。0.0 より大きくする必要があります。</value>
+  </data>
+  <data name="InvariantCultureInfo" xml:space="preserve">
+    <value>'CultureInfo.InvariantCulture' は、この操作に対して有効な値ではありません。</value>
+  </data>
+  <data name="SapiErrorFileMustBeUnicode" xml:space="preserve">
+    <value>このファイルは Unicode である必要があります。</value>
+  </data>
+  <data name="GrammarWrongRecognizer" xml:space="preserve">
+    <value>この認識エンジンには、文法が読み込まれていません。</value>
+  </data>
+  <data name="InvalidTokenId" xml:space="preserve">
+    <value>トークン ID が無効です。</value>
+  </data>
+  <data name="ResultInvalidFormat" xml:space="preserve">
+    <value>シリアル化された形式は無効です。</value>
+  </data>
+  <data name="InvalidMinRepeat" xml:space="preserve">
+    <value>'{0}' minRepeat が無効です。0 以上にする必要があります。</value>
+  </data>
+  <data name="SapiErrorRemoteCallOnWrongThread" xml:space="preserve">
+    <value>サーバーへのリモート呼び出しが、正しくないスレッドで行われました。</value>
+  </data>
+  <data name="NoScriptsForRules" xml:space="preserve">
+    <value>ルールに、セマンティクス処理が定義されていません。</value>
+  </data>
+  <data name="MuliplePronunciationString" xml:space="preserve">
+    <value>複数の 'pron' 文字列を持つことはできません。</value>
+  </data>
+  <data name="TooManyRulesWithSemanticsGlobals" xml:space="preserve">
+    <value>シンボル テーブルの容量が超過しています。</value>
+  </data>
+  <data name="SapiErrorNotActiveSession" xml:space="preserve">
+    <value>オーディオ出力および入力は、非アクティブ コンソールではサポートされていません。</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="OnInitOnPublicRule" xml:space="preserve">
+    <value>'{0}' は、プライベート ルール '{1}' では無効です。</value>
+  </data>
+  <data name="InvalidAssemblyReferenceAttribute" xml:space="preserve">
+    <value>不明な 'assembly reference' 属性です。</value>
+  </data>
+  <data name="NoPromptEngineInterface" xml:space="preserve">
+    <value>このオブジェクトに対するプロンプト エンジン インターフェイスを見つけることができません。</value>
+  </data>
+  <data name="NoBackSlash" xml:space="preserve">
+    <value>'{0}' で指定されたパスに、\ が見つかりません。</value>
+  </data>
+  <data name="SynthesizerSetVoiceNoMatch" xml:space="preserve">
+    <value>音声を設定できません。一致する音声がインストールされていないか、または音声が無効になっています。</value>
+  </data>
+  <data name="InvalidRuleId" xml:space="preserve">
+    <value>'{0}' ルール ID が無効です。</value>
+  </data>
+  <data name="SapiErrorXMLResourceNotFound" xml:space="preserve">
+    <value>XML パーサーが、音声や発音コンバータなどの必要なリソースを見つけられません。</value>
+  </data>
+  <data name="DupSemanticValue" xml:space="preserve">
+    <value>ルール '{0}' のセマンティクス値は既に設定されており、変更できません。</value>
+  </data>
+  <data name="SapiErrorReenterSynchronize" xml:space="preserve">
+    <value>音声認識エンジンにより、同期呼び出しの内部で、同期が呼び出されました。</value>
+  </data>
+  <data name="SapiErrorInvalidWAVFile" xml:space="preserve">
+    <value>WAV ファイルの形式はサポートされていません。</value>
+  </data>
+  <data name="SapiErrorNotSupportedFormat" xml:space="preserve">
+    <value>サポートされていない形式です。</value>
+  </data>
+  <data name="MissingRequiredAttribute" xml:space="preserve">
+    <value>'{1}' には属性 '{0}' が必要です。</value>
+  </data>
+  <data name="RuleNameIdConflict" xml:space="preserve">
+    <value>名前と ID が競合しています。</value>
+  </data>
+  <data name="NotSupported" xml:space="preserve">
+    <value>関数呼び出しと入力のこの組み合わせは、サポートされていません。</value>
+  </data>
+  <data name="NoUriForSpecialRuleRef" xml:space="preserve">
+    <value>特別な 'ruleref' は 'uri' 属性を持つことができません。</value>
+  </data>
+  <data name="InvalidXmlFormat" xml:space="preserve">
+    <value>XML 文法形式が無効です。文法を、XML ドキュメント オブジェクト モデルに読み込むことはできません。</value>
+  </data>
+  <data name="ExtraDataNotPresent" xml:space="preserve">
+    <value>余分な WAVE ヘッダー データはありません。</value>
+  </data>
+  <data name="PromptAsyncOperationCancelled" xml:space="preserve">
+    <value>非同期操作は取り消されました。</value>
+  </data>
+  <data name="TokenCannotCreateInstance" xml:space="preserve">
+    <value>このトークンに関連付けられた CLSID のインスタンスを作成できませんでした。</value>
+  </data>
+  <data name="SapiErrorInvalidRegistrykey" xml:space="preserve">
+    <value>指定されたキーは無効です。</value>
+  </data>
+  <data name="InvalidSrgs" xml:space="preserve">
+    <value>SRGS が無効です。'grammar' 要素がありません。</value>
+  </data>
+  <data name="InvalidName" xml:space="preserve">
+    <value>名前は、空でない文字列である必要があります。</value>
+  </data>
+  <data name="CircularRuleRef" xml:space="preserve">
+    <value>ルール '{0}' に循環ルール参照があります。</value>
+  </data>
+  <data name="SynthesizerUnknownPriority" xml:space="preserve">
+    <value>認識できない優先度です。</value>
+  </data>
+  <data name="GrammarCompilerError" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>予期しないエラー '{0:x}' です。</value>
+  </data>
+  <data name="SapiErrorHighLowConfidence" xml:space="preserve">
+    <value>結果にオーディオが含まれていないか、または結果の要素チェーンの部分にオーディオが含まれていません。</value>
+  </data>
+  <data name="InvalidTokenString" xml:space="preserve">
+    <value>トークン文字列に、二重引用符文字を含めることはできません。</value>
+  </data>
+  <data name="StrongTypedGrammarNotAGrammar" xml:space="preserve">
+    <value>カスタム文法は、Grammar クラスから派生している必要があります。</value>
+  </data>
+  <data name="SapiErrorRecognizerInactive" xml:space="preserve">
+    <value>認識エンジンがアクティブでないため、操作を完了できませんでした。</value>
+  </data>
+  <data name="TokenInUse" xml:space="preserve">
+    <value>トークンは使用中です。	</value>
+  </data>
+  <data name="MustBeGreaterThanZero" xml:space="preserve">
+    <value>この引数は、0 より大きくする必要があります。</value>
+  </data>
+  <data name="DataBlockSizeInvalid" xml:space="preserve">
+    <value>無効なオーディオ ヘッダー情報です。blockAlign またはメタデータ サイズが無効なため、データ ブロック サイズを計算できません。</value>
+  </data>
+  <data name="CannotSetPriorityOnDictation" xml:space="preserve">
+    <value>DictationGrammar オブジェクトの優先度を設定できません。</value>
+  </data>
+  <data name="SapiErrorVoicePaused" xml:space="preserve">
+    <value>音声が現在一時停止しているため、操作を実行できません。</value>
+  </data>
+  <data name="TooManyArcs" xml:space="preserve">
+    <value>アークが多すぎます。最大値は 0x3FFFFF です。</value>
+  </data>
+  <data name="RecognizerSettingGetError" xml:space="preserve">
+    <value>認識エンジンの設定を取得するときにエラーが発生しました。</value>
+  </data>
+  <data name="SapiErrorRuleNameIdConflict" xml:space="preserve">
+    <value>ID は一致するが名前が異なるルール、または名前は一致するが ID が異なるルールが存在します。</value>
+  </data>
+  <data name="TokenUninitialized" xml:space="preserve">
+    <value>トークンは初期化されていません。</value>
+  </data>
+  <data name="SynthesizerUnknownEvent" xml:space="preserve">
+    <value>認識できないイベントです。</value>
+  </data>
+  <data name="ClassNotPublic" xml:space="preserve">
+    <value>'{0}' クラスは 'public' である必要があります。文法をインスタンス化することはできません。</value>
+  </data>
+  <data name="InvalidMethodName" xml:space="preserve">
+    <value>メソッド名 '{0}' 内の文字が無効です。</value>
+  </data>
+  <data name="PromptBuilderStateVoice" xml:space="preserve">
+    <value>Voice 要素が閉じられていません。</value>
+  </data>
+  <data name="PromptBuilderStateStyle" xml:space="preserve">
+    <value>Style 要素が閉じられていません。</value>
+  </data>
+  <data name="PromptBuilderStateEnded" xml:space="preserve">
+    <value>SSML データは既に生成されています。</value>
+  </data>
+  <data name="MaxAlternatesInvalid" xml:space="preserve">
+    <value>MaxAlternates の値は、0 以上でなければなりません。</value>
+  </data>
+  <data name="InvalidGrammarAttribute" xml:space="preserve">
+    <value>'grammar' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="InvalidTokenAttribute" xml:space="preserve">
+    <value>'token' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="SapiErrorEngineBUSY" xml:space="preserve">
+    <value>音声認識では、文法ルールがアクティブである間は、現在のメソッドを実行することができません。</value>
+  </data>
+  <data name="WordExistsWithoutPronunciation" xml:space="preserve">
+    <value>単語は存在しますが、発音がありません。</value>
+  </data>
+  <data name="SapiErrorNoRuleActive" xml:space="preserve">
+    <value>ルールがアクティブになるまで解析できません。</value>
+  </data>
+  <data name="CantGetPropertyFromSerializedInfo" xml:space="preserve">
+    <value>'{0}' プロパティでは、シリアル化ストリームから構築された認識結果についてサポートされていません。</value>
+  </data>
+  <data name="SapiErrorStateWithNoArcs" xml:space="preserve">
+    <value>文法に、アークを持たないノードが含まれています。</value>
+  </data>
+  <data name="SapiErrorDuplicateRuleName" xml:space="preserve">
+    <value>重複したルール名です。</value>
+  </data>
+  <data name="RecognizerNotFound" xml:space="preserve">
+    <value>必要な ID の認識エンジンが見つかりません。</value>
+  </data>
+  <data name="InvalidPhoneme" xml:space="preserve">
+    <value>音素 '{0}' が無効です。</value>
+  </data>
+  <data name="SapiErrorAllWordsOptional" xml:space="preserve">
+    <value>文法ルールが、ルールを通して NULL パスで定義されました。</value>
+  </data>
+  <data name="RuleAttributeDefinedMultipeTimes" xml:space="preserve">
+    <value>'script' の属性 'rule' が、複数回定義されています。</value>
+  </data>
+  <data name="TokenDeleted" xml:space="preserve">
+    <value>トークンは削除されました。</value>
+  </data>
+  <data name="SapiErrorNotPromptVoice" xml:space="preserve">
+    <value>現在の音声は、プロンプト音声ではありません。</value>
+  </data>
+  <data name="NumberOfSamplesInvalid" xml:space="preserve">
+    <value>データ ブロックのサンプル数が無効です。</value>
+  </data>
+  <data name="PromptBuilderInvalideState" xml:space="preserve">
+    <value>SSML データを生成できません: </value>
+  </data>
+  <data name="NotValidAudioStream" xml:space="preserve">
+    <value>ファイルは無効なオーディオ ストリームです。</value>
+  </data>
+  <data name="NotSupportedWithThisVersionOfSAPICompareOption" xml:space="preserve">
+    <value>この 'CompareOption' 値は、このバージョンの Speech プラットフォームではサポートされていません。</value>
+  </data>
+  <data name="SapiErrorUninitialized" xml:space="preserve">
+    <value>オブジェクトが初期化されていません。</value>
+  </data>
+  <data name="PromptBuilderNestedSentence" xml:space="preserve">
+    <value>SSML ドキュメントでは、文を入れ子にすることはできません。</value>
+  </data>
+  <data name="RecognizerRuleNotFound" xml:space="preserve">
+    <value>文法ファイル '{1}' の '{0}' ルールは見つからないか、またはパブリックでありません。</value>
+  </data>
+  <data name="SapiErrorUnused2" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused3" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused0" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused1" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused6" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused4" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SapiErrorUnused5" xml:space="preserve">
+    <value>エラー コードは使用されません。</value>
+  </data>
+  <data name="SynthesizerNoCulture2" xml:space="preserve">
+    <value>音声に対する Culture を見るけることができません。</value>
+  </data>
+  <data name="GrammarDefTwice" xml:space="preserve">
+    <value>SRGS ソースが無効です。複数の 'grammar' 要素を保持することはできません。</value>
+  </data>
+  <data name="BitsPerSampleInvalid" xml:space="preserve">
+    <value>BitsPerSample フィールドが無効です。</value>
+  </data>
+  <data name="OperationAborted" xml:space="preserve">
+    <value>操作は停止しました。</value>
+  </data>
+  <data name="SapiErrorAlreadyInitialized" xml:space="preserve">
+    <value>オブジェクトは既に初期化されています。</value>
+  </data>
+  <data name="PromptBuilderDatabaseName" xml:space="preserve">
+    <value>データベースへのパスは、ローカルまたはネットワーク ファイルを指している必要があります。</value>
+  </data>
+  <data name="SapiErrorSTGF" xml:space="preserve">
+    <value>SAPI テキスト文法形式 (XML 文法) を解析するときに、エラーが発生しました。</value>
+  </data>
+  <data name="SapiErrorCannotNormalize" xml:space="preserve">
+    <value>標準化インターフェイスに渡された単語を、標準化することはできません。</value>
+  </data>
+  <data name="InvalidImport" xml:space="preserve">
+    <value>ルールを、Import および TopLevel/Active/Root の両方としてマークすることはできません。</value>
+  </data>
+  <data name="SapiErrorTTSNLPException" xml:space="preserve">
+    <value>アプリケーション文フィルタの呼び出し中に、例外が発生しました。</value>
+  </data>
+  <data name="InvalidItemRepeatAttribute" xml:space="preserve">
+    <value>'item repeat' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="RecognizerAlreadyRecognizing" xml:space="preserve">
+    <value>認識エンジンで認識を行っている間は、この操作を実行できません。</value>
+  </data>
+  <data name="GrammarLoadingInProgress" xml:space="preserve">
+    <value>認識エンジンに文法が読み込まれています。</value>
+  </data>
+  <data name="NotValidAudioFile" xml:space="preserve">
+    <value>'{0}' ファイルは有効なオーディオ ファイルではないか、オーディオ形式がサポートされていません。</value>
+  </data>
+  <data name="ReqConfidenceNotSupported" xml:space="preserve">
+    <value>'Required Confidence' 属性は、SrgsDocuments ではサポートされていません。</value>
+  </data>
+  <data name="NotSupportedWithThisVersionOfSAPIBaseUri" xml:space="preserve">
+    <value>'BaseUri' は、このバージョンの Speech プラットフォームではサポートされていません。</value>
+  </data>
+  <data name="ResultNotGrammarAvailable" xml:space="preserve">
+    <value>逆シリアル化された結果に使用できる文法はありません。</value>
+  </data>
+  <data name="InvalidConfidence" xml:space="preserve">
+    <value>精度は 0.0 ～ 1.0 (0.0 と 1.0 を含む) でなければなりません。</value>
+  </data>
+  <data name="SapiErrorNotFound" xml:space="preserve">
+    <value>データ キーや値など、要求されたデータ項目が見つかりません。</value>
+  </data>
+  <data name="RuleRefNoUri" xml:space="preserve">
+    <value>特別な RuleRef には URI がありません。</value>
+  </data>
+  <data name="SapiErrorInvalidPhraseID" xml:space="preserve">
+    <value>指定された語句 ID は存在しないか、範囲外です。</value>
+  </data>
+  <data name="SapiErrorNotInLex" xml:space="preserve">
+    <value>この単語は辞書内に存在しません。</value>
+  </data>
+  <data name="RuleScriptInvalidParameters" xml:space="preserve">
+    <value>ルール '{1}' のメソッド '{0}' に対するパラメータは無効です。</value>
+  </data>
+  <data name="UnsupportedAlphabet" xml:space="preserve">
+    <value>'phoneme' の '{0}' アルファベットはサポートされていません。</value>
+  </data>
+  <data name="InvalidAttributeDefinedTwice" xml:space="preserve">
+    <value>'{1}' 要素の '{0}' 属性値は、複数回定義されています。</value>
+  </data>
+  <data name="RecognitionNotSupported" xml:space="preserve">
+    <value>このシステムでは、音声認識を使用できません。SAPI および音声認識エンジンが見つかりません。</value>
+  </data>
+  <data name="SapiErrorRootRuleAlreadyDefined" xml:space="preserve">
+    <value>この文法に対するルート ルールは既に存在します。</value>
+  </data>
+  <data name="SapiErrorAudioStopped" xml:space="preserve">
+    <value>読み取り呼び出し中または書き込み呼び出し中、ストリームは停止されます。</value>
+  </data>
+  <data name="NoAliasForSpecialRuleRef" xml:space="preserve">
+    <value>特別な 'ruleref' は、'semantic-key' または 'params' 属性を持つことはできません。</value>
+  </data>
+  <data name="UnknownElement" xml:space="preserve">
+    <value>認識できない '{0}' 要素です。</value>
+  </data>
+  <data name="AudioPaused" xml:space="preserve">
+    <value>一時停止したストリームの読み取りは、ブロックされません。このリターン コードは、すべてのデータがストリームから削除されたことを示します。</value>
+  </data>
+  <data name="CollectionReadOnly" xml:space="preserve">
+    <value>コレクションは読み取り専用です。</value>
+  </data>
+  <data name="PromptBuilderInvalidElement" xml:space="preserve">
+    <value>形式が正しくない SSML ドキュメントです。'{0}' SSML 要素は、'{1}' コンテキストでは無効です。</value>
+  </data>
+  <data name="NoRuleId" xml:space="preserve">
+    <value>'rule' に ID がないルールです。</value>
+  </data>
+  <data name="RecognizerSettingNotSupported" xml:space="preserve">
+    <value>認識エンジンの設定は、認識エンジンによってサポートされていません。</value>
+  </data>
+  <data name="RateOutOfRange" xml:space="preserve">
+    <value>レートは、-10 ～ 10 の範囲で指定してください。</value>
+  </data>
+  <data name="InvalidQuotedString" xml:space="preserve">
+    <value>二重引用符で囲まれた文字列は無効です。</value>
+  </data>
+  <data name="SynthesizerSetOutputSpeaking" xml:space="preserve">
+    <value>読み上げている間は、シンセサイザの出力を変更できません。</value>
+  </data>
+  <data name="InvalidLexiconAttribute" xml:space="preserve">
+    <value>'Lexicon' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="InvalidSrgsNamespace" xml:space="preserve">
+    <value>SRGS 文法が無効です。SRGS 名前空間は 'http://www.w3.org/2001/06/grammar' に定義されていません。</value>
+  </data>
+  <data name="CannotLoadResourceFromManifest" xml:space="preserve">
+    <value>アセンブリ '{1}' のマニフェストから必要なリソース '{0}' を読み込めません。</value>
+  </data>
+  <data name="RecognizerGrammarNotFound" xml:space="preserve">
+    <value>文法ファイルが見つかりません。</value>
+  </data>
+  <data name="CannotFindClass" xml:space="preserve">
+    <value>'{0}' クラス名は、名前空間 '{1}' に見つかりません。クラスがパブリックとしてマークされていることを確認してください。</value>
+  </data>
+  <data name="EmptyOneOf" xml:space="preserve">
+    <value>'one-of' には、少なくとも 1 つの 'item' 要素が含まれている必要があります。</value>
+  </data>
+  <data name="MinGreaterThanMax" xml:space="preserve">
+    <value>'Min' の値は、'Max' の値以下である必要があります。</value>
+  </data>
+  <data name="SapiErrorDuplicateResourceName" xml:space="preserve">
+    <value>指定されたルールに対して、リソース名が重複していました。</value>
+  </data>
+  <data name="SapiErrorTopicNotADaptable" xml:space="preserve">
+    <value>このトピックは変更できません。</value>
+  </data>
+  <data name="DictationTopicNotFound" xml:space="preserve">
+    <value>'{0}' ディクテーション トピックが見つかりません。</value>
+  </data>
+  <data name="InvalidGrammarMode" xml:space="preserve">
+    <value>文法モード値が無効です</value>
+  </data>
+  <data name="ParamsEntryNullIllegal" xml:space="preserve">
+    <value>変数パラメータ一覧に、'null' 値を含めることはできません。</value>
+  </data>
+  <data name="SapiErrorInstanceChangeInvalid" xml:space="preserve">
+    <value>認識コンテキストが存在している間に SelectEngine が呼び出されたか、または共有インスタンス ケースで SetInput が呼び出されました。</value>
+  </data>
+  <data name="EndSilenceOutOfRange" xml:space="preserve">
+    <value>プロパティの値を、負の値にしたり、100 秒より大きくしたりすることはできません。</value>
+  </data>
+  <data name="SapiErrorRemoteCallTimedOutConnect" xml:space="preserve">
+    <value>SAPI サーバーの起動または接続のためにロックを取得するときに、タイムアウトが発生しました。</value>
+  </data>
+  <data name="MinMaxOutOfRange" xml:space="preserve">
+    <value>繰り返し数が範囲外です。必要な条件は、0 &lt;= min ({0}) &lt;= max ({1}) &lt; 256 です。</value>
+  </data>
+  <data name="SapiErrorWordNeedsNormalization" xml:space="preserve">
+    <value>GetPronunciations インターフェイスに渡す前に、単語を標準化する必要があります。</value>
+  </data>
+  <data name="SapiErrorDeviceBusy" xml:space="preserve">
+    <value>WAVE デバイスはビジーです。</value>
+  </data>
+  <data name="ExportDynamicRule" xml:space="preserve">
+    <value>ダイナミック ルールを、ルートまたはパブリックにすることはできません。</value>
+  </data>
+  <data name="NoPromptEngine" xml:space="preserve">
+    <value>システム内にプロンプト エンジンがありません。</value>
+  </data>
+  <data name="SapiErrorStreamUninitialized" xml:space="preserve">
+    <value>ローカルの認識エンジンでは、初期化されるまでルール、ディクテーション、またはその他のストリームをアクティブにできません。最初に SetInput を呼び出してください。</value>
+  </data>
+  <data name="SapiErrorXMLBadSyntax" xml:space="preserve">
+    <value>構文が無効なため、XML パーサーが失敗しました。</value>
+  </data>
+  <data name="SapiErrorAudioBufferUnderflow" xml:space="preserve">
+    <value>リアルタイム オーディオ デバイスは、予期されたデータを戻すことを停止しました。</value>
+  </data>
+  <data name="RuleNotDynamic" xml:space="preserve">
+    <value>ルールを、ダイナミックとして設定する必要があります。</value>
+  </data>
+  <data name="InvalidNameValueProperty" xml:space="preserve">
+    <value>'tag' 内の値 '{1}' の型が無効です。'{0}={1}'。この値は、ブール値、整数、浮動小数、または二重引用符で囲まれた文字列である必要があります。</value>
+  </data>
+  <data name="PromptBuilderInvalidAttribute" xml:space="preserve">
+    <value>SSML ヘッダーで認識されていない属性です。</value>
+  </data>
+  <data name="SapiErrorAlreadyDeleted" xml:space="preserve">
+    <value>このオブジェクトは古い参照であるため、使用できません。</value>
+  </data>
+  <data name="SapiErrorEndOfStream" xml:space="preserve">
+    <value>操作は、ストリームの終わりに達しました。</value>
+  </data>
+  <data name="StringCanNotBeEmpty" xml:space="preserve">
+    <value>'{0}' は、空の文字列にすることはできません。</value>
+  </data>
+  <data name="StreamMustBeReadable" xml:space="preserve">
+    <value>ストリームで、読み取り操作がサポートされている必要があります。</value>
+  </data>
+  <data name="SapiErrorAppLexReadOnly" xml:space="preserve">
+    <value>この操作は、新規作成されたアプリケーションの辞書に対して以外はすべて無効です。</value>
+  </data>
+  <data name="InvalidRepeatProbability" xml:space="preserve">
+    <value>'{0}' 繰り返し確率が無効です。RepeatProbability は、0.0 ～ 1.0 の範囲 (0.0 と 1.0 を含む) で指定してください。</value>
+  </data>
+  <data name="SapiErrorGrammarCompilerInternalError" xml:space="preserve">
+    <value>内部状態エラーのため、文法コンパイラが失敗しました。</value>
+  </data>
+  <data name="SapiErrorInvalidFormatString" xml:space="preserve">
+    <value>この 'ruleref' の XML 形式文字列が無効です。'Guid' または 'RefClsId' でなければなりません。</value>
+  </data>
+  <data name="ReferencedGrammarNotFound" xml:space="preserve">
+    <value>この文法によって参照される文法を見つけることができません。</value>
+  </data>
+  <data name="EnumInvalid" xml:space="preserve">
+    <value>'{0}' 列挙値が無効です。</value>
+  </data>
+  <data name="StreamMustBeSeekable" xml:space="preserve">
+    <value>ストリームで、シーク操作がサポートされている必要があります。</value>
+  </data>
+  <data name="InvalidMetaAttribute" xml:space="preserve">
+    <value>'Meta' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="InvalidMaxRepeat" xml:space="preserve">
+    <value>'{0}' maxRepeat が無効です。0 以上にする必要があります。</value>
+  </data>
+  <data name="MethodAttributeDefinedMultipeTimes" xml:space="preserve">
+    <value>'script' の属性 'method' が、複数回定義されています。</value>
+  </data>
+  <data name="SapiErrorNotDynamicGrammar" xml:space="preserve">
+    <value>非ダイナミック文法を操作しようとしました。</value>
+  </data>
+  <data name="NotSupportedWithThisVersionOfSAPITagFormat" xml:space="preserve">
+    <value>このセマンティクス解釈型 'tag-format' は、このバージョンの Speech プラットフォームではサポートされていません。</value>
+  </data>
+  <data name="SapiErrorInvalidAudioState" xml:space="preserve">
+    <value>SetState() に渡されたオーディオ状態は無効です。</value>
+  </data>
+  <data name="InvalidRuleScope" xml:space="preserve">
+    <value>ルール スコープ値が無効です。</value>
+  </data>
+  <data name="SapiErrorDeviceNotSupported" xml:space="preserve">
+    <value>WAVE デバイスはサポートされていません。</value>
+  </data>
+  <data name="InvalidEmptyRule" xml:space="preserve">
+    <value>'{0}' 要素を、空にすることはできません。{0}='{1}'。</value>
+  </data>
+  <data name="SapiErrorEmptyRule" xml:space="preserve">
+    <value>非ダイナミック文法ルールが空です。</value>
+  </data>
+  <data name="RootRuleAlreadyDefined" xml:space="preserve">
+    <value>ルート ルールは既に定義されています。</value>
+  </data>
+  <data name="SapiErrorStreamPosInvalid" xml:space="preserve">
+    <value>エンジンから提供されたストリーム位置情報は、整合性がありません。</value>
+  </data>
+  <data name="PromptBuilderAgeOutOfRange" xml:space="preserve">
+    <value>保存期間は、'2' ～ '100' の範囲の値でなければなりません。</value>
+  </data>
+  <data name="SapiErrorRuleNotFound" xml:space="preserve">
+    <value>ルールが、文法 '{0}' に見つかりません。</value>
+  </data>
+  <data name="NoParseFound" xml:space="preserve">
+    <value>現在アクティブなルールでは、解析パスを解析することはできません。</value>
+  </data>
+  <data name="NotSupportedWithThisVersionOfSAPI2" xml:space="preserve">
+    <value>プロパティ '{0}' は、このバージョンの Speech プラットフォームではサポートされていません。</value>
+  </data>
+  <data name="RuleDefinedMultipleTimes" xml:space="preserve">
+    <value>'{0}' ルールが、複数回定義されています。</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>トークン タグのコンテンツが無効です。</value>
+  </data>
+  <data name="InvalidGrammarOrdering" xml:space="preserve">
+    <value>'lexicon'、'meta'、'metadata' は、'rule' の前に定義する必要があります。</value>
+  </data>
+  <data name="InvalidXml" xml:space="preserve">
+    <value>XML コンテンツが無効です。</value>
+  </data>
+  <data name="SapiErrorDeadAlternate" xml:space="preserve">
+    <value>この代替は、その取得元の結果に対する有効な代替ではなくなっています。</value>
+  </data>
+  <data name="InvalidTagAttribute" xml:space="preserve">
+    <value>'tag' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="SapiErrorPhonemeConversion" xml:space="preserve">
+    <value>音素を、指定された発音記号に変換できません。</value>
+  </data>
+  <data name="SapiErrorRemoteCallTimedout" xml:space="preserve">
+    <value>マーシャリングされたリモート呼び出しが、応答に失敗しました。</value>
+  </data>
+  <data name="MethodNotPublic" xml:space="preserve">
+    <value>ルール '{1}' の '{0}' メソッドは、'public' である必要があります。このメソッドを呼び出すことはできません。</value>
+  </data>
+  <data name="SapiErrorNoWordEntryNotification" xml:space="preserve">
+    <value>このエンジンは、この文法では、SAPI 単語エントリ ハンドルを必要としません。</value>
+  </data>
+  <data name="SapiErrorRemoteProcessAlreadyRunning" xml:space="preserve">
+    <value>リモート プロセスは既に実行されています。2 度起動することはできません。</value>
+  </data>
+  <data name="InvalidSpecialRuleRef" xml:space="preserve">
+    <value>特別な ruleref 'uri' が無効です。'NULL'、'VOID'、または 'GARBAGE' を指定してください。</value>
+  </data>
+  <data name="AudioConversionEnabled" xml:space="preserve">
+    <value>操作は成功しました。ただし、自動ストリーム形式変換のみです。</value>
+  </data>
+  <data name="InvalidScriptDefinition" xml:space="preserve">
+    <value>スクリプト属性が無効です。ルール '{0}' は認識されません。</value>
+  </data>
+  <data name="SapiErrorTimeOut" xml:space="preserve">
+    <value>音声認識エンジンがタイムアウトとなったため、タスクを完了できませんでした。</value>
+  </data>
+  <data name="RecognizerNotEnabled" xml:space="preserve">
+    <value>認識エンジンが無効になっています。</value>
+  </data>
+  <data name="SapiErrorNoRulesToActivate" xml:space="preserve">
+    <value>アクティブ化する、ルートまたはトップレベルのアクティブ ルールが、文法にありません。</value>
+  </data>
+  <data name="NegativeTimesNotSupported" xml:space="preserve">
+    <value>負の TimeSpan 値はサポートされていません。</value>
+  </data>
+  <data name="SapiErrorSharedEngineDisabled" xml:space="preserve">
+    <value>ユーザーがこのコンピュータ上で音声認識を実行しないことを選択したか、またはシステムが音声認識を実行するようにセットアップされていません。</value>
+  </data>
+  <data name="InvalidScriptAttribute" xml:space="preserve">
+    <value>スクリプト属性が無効です。</value>
+  </data>
+  <data name="SapiErrorAudioBufferOverflow" xml:space="preserve">
+    <value>音声認識エンジン ドライバが最近データを取得していなかったため、入力ストリームが一時停止します。</value>
+  </data>
+  <data name="ArrayOfNullIllegal" xml:space="preserve">
+    <value>配列には、null 値を含めることはできません。</value>
+  </data>
+  <data name="SapiErrorStreamClosed" xml:space="preserve">
+    <value>終了しているストリーム オブジェクトで操作を実行することはできません。</value>
+  </data>
+  <data name="SynthesizerVoiceFailed" xml:space="preserve">
+    <value>システムに音声がインストールされていないか、または現在のセキュリティ設定で使用可能な音声がありません。</value>
+  </data>
+  <data name="SapiErrorCircularReference" xml:space="preserve">
+    <value>文法のインポート ルールに循環参照があります。</value>
+  </data>
+  <data name="InvalidDynamicExport" xml:space="preserve">
+    <value>'{0}' エクスポートされたルールには、ダイナミック ルールへの直接参照または間接参照が含まれています。</value>
+  </data>
+  <data name="InsufficientData" xml:space="preserve">
+    <value>データが不十分です。</value>
+  </data>
+  <data name="SynthesizerNoSpeak" xml:space="preserve">
+    <value>SSML 入力が無効です。'speak' 要素を見つけることができません。</value>
+  </data>
+  <data name="SapiErrorSMLGenerationFail" xml:space="preserve">
+    <value>セマンティック マークアップ言語を生成できません。これは、XLST テンプレートの形式が正しくないことが原因である可能性があります。</value>
+  </data>
+  <data name="InvalidReqConfAttribute" xml:space="preserve">
+    <value>'token' の 'sapi:reqconf' 属性 '{0}' の値が無効です。</value>
+  </data>
+  <data name="SapiErrorNotSupportedForInprocRecognizer" xml:space="preserve">
+    <value>呼び出されたメソッドは、インプロセス認識エンジンではサポートされていません。</value>
+  </data>
+  <data name="StateWithNoArcs" xml:space="preserve">
+    <value>内部コンパイラ エラーです。状態に遷移はありません。</value>
+  </data>
+  <data name="SapiErrorAudioStopped0" xml:space="preserve">
+    <value>このメソッドは廃止されます。</value>
+  </data>
+  <data name="SapiErrorAudioStoppedUnexpectedly" xml:space="preserve">
+    <value>オーディオ デバイスは、実行状態であったとしても、Read メソッドからデータを戻すことを停止しました。</value>
+  </data>
+  <data name="SynthesizerPauseResumeMismatched" xml:space="preserve">
+    <value>シンセサイザは 'Paused' モードになっていません。</value>
+  </data>
+  <data name="SapiErrorNotSupportedLang" xml:space="preserve">
+    <value>要求された言語はサポートされていません。</value>
+  </data>
+  <data name="InvalidItemAttribute2" xml:space="preserve">
+    <value>'item' の属性が無効です。'repeat' を指定してください。</value>
+  </data>
+  <data name="SapiErrorCantCreate" xml:space="preserve">
+    <value>指定されたオブジェクト カテゴリに対して、新しいオブジェクト インスタンスを作成できません。</value>
+  </data>
+  <data name="SapiErrorCompleteButExtendable" xml:space="preserve">
+    <value>解析は無効ですが、拡張できる可能性があります (内部使用のみ)</value>
+  </data>
+  <data name="AudioDeviceError" xml:space="preserve">
+    <value>オーディオ デバイス エラーが発生しました。</value>
+  </data>
+  <data name="InvalidOneOfAttribute" xml:space="preserve">
+    <value>'one-of' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="MissingTagFormat" xml:space="preserve">
+    <value>'grammar' 要素に "tag-format" がありません。この属性は、'tag' 要素を含む SRGS 文法で設定されている必要があります。</value>
+  </data>
+  <data name="NoClassname" xml:space="preserve">
+    <value>'classname' が定義されていません。</value>
+  </data>
+  <data name="RootNotDefined" xml:space="preserve">
+    <value>'{0}' ルート ルールは定義されていません。</value>
+  </data>
+  <data name="PromptBuilderNestedParagraph" xml:space="preserve">
+    <value>SSML ドキュメントでは、パラグラフを別の段落または文の中で入れ子にすることはできません。</value>
+  </data>
+  <data name="NotWholeNumberBlocks" xml:space="preserve">
+    <value>ブロックの整数は、存在しません。</value>
+  </data>
+  <data name="PromptBuilderMismatchVoice" xml:space="preserve">
+    <value>'EndVoice' には、対応する 'StartVoice' が必要です。</value>
+  </data>
+  <data name="PromptBuilderMismatchStyle" xml:space="preserve">
+    <value>'EndStyle' には、対応する 'StartStyle' が必要です。</value>
+  </data>
+  <data name="RejectionThresholdOutOfRange" xml:space="preserve">
+    <value>RejectionThreshold は、0.0 ～ 1.0 の範囲で指定してください。</value>
+  </data>
+  <data name="RecognitionNotSupportedOn64bit" xml:space="preserve">
+    <value>音声認識は、64 ビット バージョンの Windows XP および Windows Server 2003 ではサポートされていません。</value>
+  </data>
+  <data name="RuleScriptInvalidReturnType" xml:space="preserve">
+    <value>ルール '{1}' のメソッド '{0}' に対する戻り値の型は無効です。</value>
+  </data>
+  <data name="InvalidTagInAnEmptyItem" xml:space="preserve">
+    <value>あいまいな構造です。最小および最大値が異なる繰り返し数を持つ 'item' にタグ要素のみを含めることはできません。</value>
+  </data>
+  <data name="StreamEndedUnexpectedly" xml:space="preserve">
+    <value>ストリームが予期せずに終了しました。</value>
+  </data>
+  <data name="InvalidRegistryEntry" xml:space="preserve">
+    <value>'{0}' 文字列形式が無効です。\ 記号または %% 記号が含まれている必要があります</value>
+  </data>
+  <data name="PromptBuilderMismatchSentence" xml:space="preserve">
+    <value>'EndSentence' には、対応する 'StartSentence' が必要です。</value>
+  </data>
+  <data name="GrammarInvalidPriority" xml:space="preserve">
+    <value>優先度は、-128 ～ 127 の範囲で指定してください。</value>
+  </data>
+  <data name="InvalidSemanticProcessingType" xml:space="preserve">
+    <value>.NET セマンティクスを含む文法の 'tag-format' は、'tag-format="properties-ms/1.0"' です。</value>
+  </data>
+  <data name="InvalidExampleOrdering" xml:space="preserve">
+    <value>'example' は、ルールの先頭にのみ定義することができます。</value>
+  </data>
+  <data name="ResourceUsageOutOfRange" xml:space="preserve">
+    <value>ResourceUsage を、負の数または 100 より大きくすることはできません</value>
+  </data>
+  <data name="RuleScriptNotFound" xml:space="preserve">
+    <value>'{2}' に対するルール '{1}' の '{0}' メソッドは、定義されていません。</value>
+  </data>
+  <data name="SapiErrorScriptDisallowed" xml:space="preserve">
+    <value>埋め込みスクリプトは、ブラウザ セキュリティ設定で無効になっていたため、サポートされていません。</value>
+  </data>
+  <data name="NoAudioAvailable" xml:space="preserve">
+    <value>オーディオ データは使用できません。オーディオ データを受信するには、認識エンジンの RecognizedAudio プロパティを true に設定します。</value>
+  </data>
+  <data name="CantFindAConstructor" xml:space="preserve">
+    <value>ルール '{1}' の文法 '{0}' で、一致するコンストラクタを見つけることができません。
+使用可能なコンストラクタは '{2}' です。</value>
+  </data>
+  <data name="SapiErrorAudioNotFound" xml:space="preserve">
+    <value>オーディオ デバイスがインストールされていません。</value>
+  </data>
+  <data name="RuleNotDefined" xml:space="preserve">
+    <value>'{0}' ルールは、この文法では定義されていません。</value>
+  </data>
+  <data name="RecognizerRuleNotFoundStream" xml:space="preserve">
+    <value>'{0}' ルールは見つからないか、またはパブリックでありません。</value>
+  </data>
+  <data name="SapiErrorRuleNotFound2" xml:space="preserve">
+    <value>ルール '{0}' が、文法 '{1}' に見つかりません。</value>
+  </data>
+  <data name="SynthesizerSyncSetOutputWhilePaused" xml:space="preserve">
+    <value>シンセサイザが一時停止されているときは、音声出力デバイスを変更できません。</value>
+  </data>
+  <data name="InvalidRulerefAttribute" xml:space="preserve">
+    <value>'ruleref' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="PromptBuilderStateParagraph" xml:space="preserve">
+    <value>段落が閉じられていません。</value>
+  </data>
+  <data name="SapiErrorEngineResponseInvalid" xml:space="preserve">
+    <value>エンジンによって提供された引数またはデータは、無効な形式であるか、整合性がありません。</value>
+  </data>
+  <data name="SapiErrorFormatNotSpecified" xml:space="preserve">
+    <value>呼び出し元は、ストリームを開く前に、形式を指定することができませんでした。</value>
+  </data>
+  <data name="CannotUseCustomFormat" xml:space="preserve">
+    <value>このコンストラクタでは、AudioFormatTag.Custom を使用できません。</value>
+  </data>
+  <data name="MultipleDisplayString" xml:space="preserve">
+    <value>複数の 'display' 文字列を持つことはできません。</value>
+  </data>
+  <data name="SynthesizerInvalidWaveFile" xml:space="preserve">
+    <value>Wave ファイルが無効です。</value>
+  </data>
+  <data name="IncompatibleNamespaceProperties" xml:space="preserve">
+    <value>すべての文法で同じ名前空間を使用する必要があります。</value>
+  </data>
+  <data name="DictationInvalidTopic" xml:space="preserve">
+    <value>パラメータのフォーム文法は、dictation#topic です。</value>
+  </data>
+  <data name="SapiErrorFailedToDeleteFile" xml:space="preserve">
+    <value>既存のファイルを削除しようとして、失敗しました。</value>
+  </data>
+  <data name="CannotReadFromDirectory" xml:space="preserve">
+    <value>'{0}' ファイル名は、特定のディレクトリを指すことはできません。</value>
+  </data>
+  <data name="InvalidTagFormat" xml:space="preserve">
+    <value>タグ形式が無効です。必要な形式は、'semantics-ms/1.0' または 'properties-ms/1.0' です。</value>
+  </data>
+  <data name="UnavailableProperty" xml:space="preserve">
+    <value>プロパティ値は、読み取る前に設定する必要があります。</value>
+  </data>
+  <data name="SapiErrorNoTerminatingRulePath" xml:space="preserve">
+    <value>終了するルール パスがありません。</value>
+  </data>
+  <data name="InvalidItemAttribute" xml:space="preserve">
+    <value>'item' の '{0}' 属性が無効です。</value>
+  </data>
+  <data name="SapiErrorNotSupportedForSharedRecognizer" xml:space="preserve">
+    <value>呼び出されたメソッドは、共有認識エンジンではサポートされていません。</value>
+  </data>
+  <data name="GrammarLoadFailed" xml:space="preserve">
+    <value>文法の読み込みに失敗しました。</value>
+  </data>
+  <data name="InvalidEmptyElement" xml:space="preserve">
+    <value>SRGS 要素を、空の '{0}' にすることはできません。</value>
+  </data>
+  <data name="ArgumentMismatch" xml:space="preserve">
+    <value>'OnInit' 引数には、型の不一致があります。</value>
+  </data>
+  <data name="NoSmlData" xml:space="preserve">
+    <value>SML 生成でエラーが発生しました。</value>
+  </data>
+  <data name="GrammarNotLoaded" xml:space="preserve">
+    <value>この認識エンジンには、文法が読み込まれていません。</value>
+  </data>
+  <data name="AlreadyInLex" xml:space="preserve">
+    <value>追加されている単語、発音、または POS のペアは、既に辞書にあります。</value>
+  </data>
+  <data name="InvalidLanguage" xml:space="preserve">
+    <value>言語が無効です。</value>
+  </data>
+  <data name="InvalidVersion" xml:space="preserve">
+    <value>バージョン番号が無効です。'1.0' を指定してください。</value>
+  </data>
+  <data name="SapiErrorNotTopLevelRule" xml:space="preserve">
+    <value>アクティブまたは非アクティブにすることができるのは、トップレベル ルールのみです。</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>ライン</value>
+  </data>
+  <data name="LexNothingToSync" xml:space="preserve">
+    <value>クライアントは現在、辞書と同期しています。</value>
+  </data>
+  <data name="SynthesizerInvalidMediaType" xml:space="preserve">
+    <value>メディアの種類が無効です。</value>
+  </data>
+  <data name="RecognizerNoRootRuleToActivate1" xml:space="preserve">
+    <value>文法ファイル '{0}' にルート ルールがありません。文法コンストラクタでアクティブにするルールを指定する必要があります。</value>
+  </data>
+  <data name="InvalidValueType" xml:space="preserve">
+    <value>値の型が無効です。型は、String、Boolean、Int32、または Double である必要があります。</value>
+  </data>
+  <data name="SapiErrorTokenDeleted" xml:space="preserve">
+    <value>関連するレジストリ キーが削除されているため、このオブジェクトでアクションを実行することはできません。</value>
+  </data>
+  <data name="SapiErrorInvalidFlags" xml:space="preserve">
+    <value>この操作に無効なフラグです。</value>
+  </data>
+</root>

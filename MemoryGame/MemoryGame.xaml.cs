@@ -21,28 +21,17 @@ namespace MemoryGame
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class MemoryGame : Page
-    {
-        //https://www.tutorialr.com/pdf/uwp-memory-game.pdf
-        List<Symbol> myList = new List<Symbol>();     
-        
+    {   
+        Library library = new Library();     
         public MemoryGame()
         {
             this.InitializeComponent();
-
-            myList.Add(new Symbol("a1", "\U00012600/"));
-            myList.Add(new Symbol("a2", "\U0001262D/"));
-            myList.Add(new Symbol("a3", "\U0001265B/"));
-            myList.Add(new Symbol("a4", "\U00012663/"));
-
-            //{ 5, "\U0001267F/"},
-            //{ 6, "\U00012693/"},
-            //{ 7, "\U000126BD/"},
-            //{ 8, "\U000126C4/"},     
+            library.New(Display);
         }
 
         private void btnClick(object sender, RoutedEventArgs e)
         {
-            a1.Content = myList.unicodeName;
+            library.New(Display);
         }
     }
 }

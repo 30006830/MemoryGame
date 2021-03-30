@@ -8151,26 +8151,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\30006830\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\OEM\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\30006830\\source\\repos\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
+      "projectUniqueName": "C:\\Users\\OEM\\Desktop\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
       "projectName": "MemoryGame",
-      "projectPath": "C:\\Users\\30006830\\source\\repos\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
-      "packagesPath": "C:\\Users\\30006830\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\30006830\\source\\repos\\MemoryGame\\MemoryGame\\obj\\",
+      "projectPath": "C:\\Users\\OEM\\Desktop\\MemoryGame\\MemoryGame\\MemoryGame.csproj",
+      "packagesPath": "C:\\Users\\OEM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OEM\\Desktop\\MemoryGame\\MemoryGame\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\30006830\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\OEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

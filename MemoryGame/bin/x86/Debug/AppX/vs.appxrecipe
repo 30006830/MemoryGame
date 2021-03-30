@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>BP020364</Machine>
-    <WindowsUser>30006830</WindowsUser>
+    <Machine>BLAKESCOMPUTER</Machine>
+    <WindowsUser>OEM</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,16 +10,16 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>44588989-4e8d-4db9-9e07-296923294276</PackageIdentityName>
     <PackageIdentityPublisher>CN=30006830</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\30006830\source\repos\MemoryGame\MemoryGame\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\OEM\Desktop\MemoryGame\MemoryGame\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>76A7F4430C816144E6753A4E8D2C43A36E3C3F3872B3A82F12001E13C762D78E</RegisteredManifestChecksum>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>490E4B5B95A2811A110ED42D019F87BE4A697D1890666F8DA760AEA8B8B32587</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>44588989-4e8d-4db9-9e07-296923294276_1.0.0.0_x86__62ynpc7c7cwk6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>44588989-4e8d-4db9-9e07-296923294276_62ynpc7c7cwk6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>44588989-4e8d-4db9-9e07-296923294276</RegisteredPackageID>
@@ -27,94 +27,102 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-28T23:17:46.353</Modified>
+      <Modified>2021-03-30T03:52:37.017</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.exe">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.exe">
       <PackagePath>entrypoint\MemoryGame.exe</PackagePath>
-      <Modified>2021-03-28T23:17:45.958</Modified>
+      <Modified>2021-03-30T03:52:36.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T06:16:04.000</Modified>
+      <Modified>2020-02-27T07:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Speech.dll">
+      <PackagePath>System.Speech.dll</PackagePath>
+      <Modified>2019-10-15T21:51:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\ja\System.Speech.resources.dll">
+      <PackagePath>ja\System.Speech.resources.dll</PackagePath>
+      <Modified>2019-12-06T17:07:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-12-06T07:24:14.000</Modified>
+      <Modified>2019-12-06T08:24:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-03-28T21:36:40.279</Modified>
+      <Modified>2021-03-29T02:23:02.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-01-26T00:59:37.057</Modified>
+      <Modified>2021-03-29T02:23:02.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.060</Modified>
+      <Modified>2021-03-29T02:23:02.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.061</Modified>
+      <Modified>2021-03-29T02:23:02.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.062</Modified>
+      <Modified>2021-03-29T02:23:02.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.063</Modified>
+      <Modified>2021-03-29T02:23:02.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.064</Modified>
+      <Modified>2021-03-29T02:23:02.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T00:59:37.065</Modified>
+      <Modified>2021-03-29T02:23:02.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.xr.xml">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.xr.xml">
       <PackagePath>MemoryGame.xr.xml</PackagePath>
-      <Modified>2021-03-28T23:10:11.772</Modified>
+      <Modified>2021-03-30T03:34:43.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-28T23:17:45.901</Modified>
+      <Modified>2021-03-30T03:52:36.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\Home.xbf">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
-      <Modified>2021-03-28T23:17:45.901</Modified>
+      <Modified>2021-03-30T03:52:36.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-28T23:17:45.901</Modified>
+      <Modified>2021-03-30T03:52:36.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.xbf">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\MemoryGame.xbf">
       <PackagePath>MemoryGame.xbf</PackagePath>
-      <Modified>2021-03-28T23:17:45.901</Modified>
+      <Modified>2021-03-30T03:52:36.445</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-12-06T05:33:46.000</Modified>
+      <Modified>2019-12-06T06:33:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-28T22:36:53.746</Modified>
+      <Modified>2021-03-29T05:57:40.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\30006830\source\repos\MemoryGame\MemoryGame\bin\x86\Debug\Core\MemoryGame.exe">
+    <AppxPackagedFile Include="C:\Users\OEM\Desktop\MemoryGame\MemoryGame\bin\x86\Debug\Core\MemoryGame.exe">
       <PackagePath>MemoryGame.exe</PackagePath>
-      <Modified>2021-03-28T23:17:46.349</Modified>
+      <Modified>2021-03-30T03:52:37.011</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

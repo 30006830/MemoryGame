@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Speech.Synthesis;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -26,14 +27,14 @@ namespace MemoryGame
 
         private Dictionary<int, string> Symbols = new Dictionary<int, string>()
         {
-            { 1, "\U00012600/"},
-            { 2, "\U0001262D/"},
-            { 3, "\U0001265B/"},
-            { 4, "\U00012663/"},
-            { 5, "\U0001267F/"},
-            { 6, "\U00012693/"},
-            { 7, "\U000126BD/"},
-            { 8, "\U000126C4/"},
+            { 1, "1"},
+            { 2, "2"},
+            { 3, "3"},
+            { 4, "4"},
+            { 5, "5"},
+            { 6, "6"},
+            { 7, "7"},
+            { 8, "8"},
         };
 
         #region Methods
@@ -41,7 +42,23 @@ namespace MemoryGame
         private void Show(string content, string title)
         {
             _ = new MessageDialog(content, title).ShowAsync();
-        }              
+        }
+
+        private Viewbox myViewbox(int value)
+        {
+            TextBlock textblock = new TextBlock()
+            {
+                Text = Symbols[value],
+                IsColorFontEnabled = true,
+                TextLineBounds = TextLineBounds.Tight,
+                FontFamily = new FontFamily("Lato"),
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+            return new Viewbox()
+            {
+                Child = textblock
+            };
+        }
 
         private List<int> Choose(int start, int maximum, int total)
         {
@@ -55,7 +72,7 @@ namespace MemoryGame
                     numbers.Add(number);
                 }
             }
-            return numbers;
+            return numbers;            
         }
 
         private void Match()
@@ -75,12 +92,15 @@ namespace MemoryGame
             if (matches.Count == size * size)
             {
                 Show($"Matched all Symbol phases in {moves} moves.", title);
+                //SpeechSynthesizer mySpeech = new SpeechSynthesizer();
+
+                //mySpeech.Speak("Congratulations you won");
             }
         }
 
         private async void NoMatch()
         {
-            await Task.Delay(TimeSpan.FromSeconds(1.5));
+            await Task.Delay(TimeSpan.FromSeconds(0.5));
             if (first != null)
             {
                 first.Content = null;
@@ -96,7 +116,7 @@ namespace MemoryGame
         private void Comparison()
         {
             if (firstID == secondID)
-                Match();
+                Match();                
             else
                 NoMatch();
             moves++;
@@ -108,14 +128,86 @@ namespace MemoryGame
         {
             Button button = new Button()
             {
-                Width = 75,
-                Height = 75,
+                Width = 50,
+                Height = 50,
                 Margin = new Thickness(10),
                 Style = (Style)Application.Current.Resources["ButtonRevealStyle"]
             };
             button.Click += (object sender, RoutedEventArgs e) =>
             {
+                int selected;
+                button = (Button)(sender);
+                row = (int)button.GetValue(Grid.RowProperty);
+                column = (int)button.GetValue(Grid.ColumnProperty);
+                selected = board[row, column];
+                if ((matches.IndexOf(selected) < 0))
+                {
+                    if (firstID == 0)
+                    {
+                        first = button;
+                        firstID = selected;
+                        first.Content = myViewbox(selected);
+                    }
+                    else if (secondID == 0)
+                    {
+                        second = button;
+                        if (!first.Equals(second))
+                        {
+                            secondID = selected;
+                            second.Content = myViewbox(selected);
+                            Comparison();
+                        }
+                    }
+                }
+            };
+            button.SetValue(Grid.ColumnProperty, column);
+            button.SetValue(Grid.RowProperty, row);
+            grid.Children.Add(button);
+        }
 
+        private void Layout(ref Grid grid)
+        {
+            moves = 0;
+            matches.Clear();
+            grid.Children.Clear();
+            grid.RowDefinitions.Clear();
+            grid.ColumnDefinitions.Clear();
+            for (int index = 0; (index < size); index++)
+            {
+                grid.RowDefinitions.Add(new RowDefinition());
+                grid.ColumnDefinitions.Add(new ColumnDefinition());
+            }
+            for (int row = 0; (row < size); row++)
+            {
+                for (int column = 0; (column < size); column++)
+                {
+                    Add(ref grid, row, column);
+                }
+            }
+        }
+
+        public void New(Grid grid)
+        {
+            Layout(ref grid);
+            int counter = 0;
+            List<int> values = new List<int>();
+            while (values.Count <= size * size)
+            {
+                List<int> numbers = Choose(1, size * 2, size * 2);
+                for (int number = 0; number < size * 2; number++)
+                {
+                    values.Add(numbers[number]);
+                }
+            }
+
+            List<int> indices = Choose(1, size * size, size * size);
+            for (int column = 0; column < size; column++)
+            {
+                for (int row = 0; row < size; row++)
+                {
+                    board[column, row] = values[indices[counter] - 1];
+                    counter++;
+                }
             }
         }
         #endregion

@@ -8,7 +8,16 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Button Name="btnSpeak" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Width="200" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Click Me" Click="btnSpeak_Click"/>
     </Grid>
 </Page>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using System.Speech.Synthesis;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -21,10 +22,22 @@ namespace MemoryGame
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class Home : Page
-    {
+    {        
         public Home()
         {
-            this.InitializeComponent();
+            this.InitializeComponent();           
+        }
+
+        private void btnSpeak_Click(object sender, RoutedEventArgs e)
+        {
+            msg();
+        }
+
+        public async void msg()
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Volume = 80;
+            synth.SpeakAsync("Hello");
         }
     }
 }
